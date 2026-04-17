@@ -1,0 +1,215 @@
+{
+  "name": "知识点内容组织文件",
+  "knowledges": [
+    {
+      "id": "K01",
+      "processDescription": "“翻译”是指在核糖体上，以信使RNA的碱基序列为指令，将氨基酸按照特定顺序连接成多肽链（蛋白质前体）的过程。其核心是将核酸语言（碱基序列）转换为蛋白质语言（氨基酸序列）。它分为三个阶段：起始、延伸和终止。\n第一阶段：起始\n1.  组装起始复合物：在起始因子的帮助下，核糖体小亚基、携带起始氨基酸（通常是甲硫氨酸）的起始tRNA以及mRNA结合。起始tRNA的反密码子与mRNA上的起始密码子（通常是AUG）配对。\n2.  核糖体大亚基结合：核糖体大亚基随后结合上来，形成完整的、具有功能的起始复合物。此时，起始tRNA位于核糖体的P位点。\n\n第二阶段：延伸（循环进行）\n这是一个高度重复的循环，每循环一次，肽链就增加一个氨基酸。\n1.  进位：根据A位点mRNA上的密码子，携带对应氨基酸的tRNA在延伸因子的帮助下进入核糖体的A位点。\n2.  成肽：位于P位点的tRNA上所携带的肽链（或起始氨基酸）被转移到A位点tRNA所携带的氨基酸上，两者之间形成一个新的肽键。此时，A位点tRNA上连接着增长的肽链。\n3.  移位：核糖体沿着mRNA向3‘端方向精确移动一个密码子的距离。这一移动导致：\n       原来在P位点的空载tRNA被移到E位点，随后从核糖体上释放。\n       原来在A位点、带着肽链的tRNA被移到了P位点。\n       A位点空出，准备迎接下一个氨基酸-tRNA。\n4.  循环重复进位-成肽-移位步骤，肽链不断延长。\n\n第三阶段：终止\n1.  当核糖体A位点移动到mRNA的终止密码子（UAA, UAG, UGA）时，没有任何tRNA能与之配对。\n2.  释放因子进入A位点，识别终止密码子。\n3.  释放因子促使核糖体催化肽链与P位点tRNA之间的连接断开，新合成的多肽链被释放。\n4.  在相关因子作用下，核糖体大小亚基解离，并从mRNA上脱落，翻译过程结束。核糖体可被重新用于新一轮翻译。",
+      "components": [
+        {
+          "id": "c1",
+          "dafult": true,
+          "name": "核糖体(ribosome)",
+          "explanation": "核糖体是无膜结构的生物大分子复合物，主要由rRNA和蛋白质组成，是细胞内蛋白质合成的基础场所。",
+          "relatedIds": ["c1"],
+          "linkedresourceIds": ["res_01"]
+        },
+        {
+          "id": "c2",
+          "dafult": true,
+          "name": "信使RNA(mRNA)",
+          "explanation": "信使RNA是携带遗传信息的RNA分子，负责将DNA上的遗传信息传递给核糖体，指导蛋白质的合成。",
+          "relatedIds": ["c2"],
+          "linkedresourceIds": ["res_02"]
+        },
+        {
+          "id": "c9",
+          "dafult": true,
+          "name": "多肽链(polypeptide chain)",
+          "explanation": "多肽链是由氨基酸通过肽键连接而成的长链分子，是蛋白质的基本组成单位。",
+          "relatedIds": ["c9"],
+          "linkedresourceIds": ["res_09"]
+        },
+        {
+          "id": "c3",
+          "dafult": false,
+          "name": "粗面内质网(rough endoplasmic reticulum)",
+          "explanation": "表面附着有核糖体的单层膜细胞器，主要负责新合成肽链的初步折叠、糖基化加工等过程。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_03"]
+        },
+        {
+          "id": "c4",
+          "dafult": false,
+          "name": "高尔基体(Golgi apparatus)",
+          "explanation": "由单层膜构成的扁平囊状结构及其附带小泡，是对来自相关细胞器的蛋白质进行修饰加工、分类包装和分拣的加工厂。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_04"]
+        },
+        {
+          "id": "c5",
+          "dafult": false,
+          "name": "细胞核(nucleus)",
+          "explanation": "由单层膜构成的扁平囊状结构及其附带小泡，是对来自相关细胞器的蛋白质进行修饰加工、分类包装和分拣的加工厂。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_05"]
+        },
+        {
+          "id": "c6",
+          "dafult": false,
+          "name": "溶酶体(lysosome)",
+          "explanation": "由单层膜构成的扁平囊状结构及其附带小泡，是对来自相关细胞器的蛋白质进行修饰加工、分类包装和分拣的加工厂。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_06"]
+        },
+        {
+          "id": "c7",
+          "dafult": false,
+          "name": "线粒体(mitochondrion)",
+          "explanation": "由单层膜构成的扁平囊状结构及其附带小泡，是对来自相关细胞器的蛋白质进行修饰加工、分类包装和分拣的加工厂。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_07"]
+        },
+        {
+          "id": "c8",
+          "dafult": false,
+          "name": "叶绿体(chloroplast)",
+          "explanation": "由单层膜构成的扁平囊状结构及其附带小泡，是对来自相关细胞器的蛋白质进行修饰加工、分类包装和分拣的加工厂。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_08"]
+        }
+      ]
+    },
+    {
+      "id": "K02",
+      "processDescription": "蛋白质的跨核膜运输进入细胞核",
+      "components": [
+        {
+          "id": "c1",
+          "dafult": true,
+          "name": "核膜(nuclear envelope)",
+          "explanation": "由内外两层平行单位膜组成的双层膜结构，是转运的屏障。",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_01"]
+        },
+        {
+          "id": "c2",
+          "dafult": true,
+          "name": "核孔复合体(nuclear pore complex, NPC)",
+          "explanation": "NPC是镶嵌在双层核膜上的巨大蛋白质复合体，表现出严格的八重径向对称性。其核心是中心环（Spoke-ring），由内环和外环复合物组成，锚定在核膜融合处。在胞质侧延伸出8条胞质丝（Cytoplasmic filaments），含有NLS识别位点，是货物的初始捕获区。在核内侧8条纤维汇聚形成核篮（Nuclear basket），在转运的最后阶段负责货物的解离与受体回收。在中央通道填充有非结构化的 FG-Nups。这些蛋白含有大量苯丙氨酸-甘氨酸重复单元，形成了类似“水凝胶”的物理屏障，通过疏水相互作用过滤大分子",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_02"]
+        },
+        {
+          "id": "c3",
+          "dafult": true,
+          "name": "核定位信号(nuclear localization signal, NLS)",
+          "explanation": "通常是富含碱性氨基酸（如赖氨酸、精氨酸）的短肽，负责引导蛋白入核。",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_03"]
+        },
+        {
+          "id": "c4",
+          "dafult": true,
+          "name": "核输入蛋白(importin)",
+          "explanation": "核输入蛋白属于核转运蛋白家族，其分子结构特征决定了它们能同时识别货物与NPC。Importin通常由α和β亚基组成，其中α亚基结合底物，β亚基负责与核孔复合体相互作用，形成“底物-受体”复合物",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_04"]
+        },
+        {
+          "id": "c5",
+          "dafult": true,
+          "name": "Ran蛋白(Ran GTPase)",
+          "explanation": "Ran蛋白是一种GTP酶，它在核转运过程中起着关键作用，通过调节Importin的活性来控制蛋白质的入核和出核。它并不直接水解ATP产生机械能，而是通过状态切换提供矢量动力.Ran-GTP，在核内高浓度，结合在受体上会改变其构象，促进进入核内的货物释放，并促使出口受体结合货物；Ran-GDP在胞质侧高浓度，不与受体结合，使得受体能释放回收的因子并重新结合新货物",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_05", "res_06"]
+        },
+        {
+          "id": "c6",
+          "dafult": true,
+          "name": "RanGAP(Ran GTPase-activating protein)",
+          "explanation": "RanGAP是一种GTP酶激活蛋白，它能够催化Ran-GTP水解为Ran-GDP，从而调节核转运过程。",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_07"]
+        },
+        {
+          "id": "c7",
+          "dafult": false,
+          "name": "磷酸分子（Pi）",
+          "explanation": "RAN-GTP水解后产生的无机磷酸分子，作为能量转化的产物之一，在细胞内具有多种功能。",
+          "relatedIds": [],
+          "linkedresourceIds": []
+        }
+      ]
+    },
+    {
+      "id": "K03",
+      "processDescription": "溶酶体形成",
+      "components": [
+        {
+          "id": "c1",
+          "dafult": true,
+          "name": "过氧化物酶体(peroxisome)",
+          "explanation": "过氧化物酶体是一种由单层膜包裹的细胞器，直径通常在 0.1至1.0微米之间。它几乎存在于所有真核细胞中，但在肝脏和肾脏细胞中尤为丰富，过氧化物酶体内含有超过50种不同的酶。",
+          "relatedIds": [],
+          "linkedresourceIds": ["res_01"]
+        },
+        {
+          "id": "c2",
+          "dafult": true,
+          "name": "内质网(endoplasmic reticulum)",
+          "explanation": "过氧化物酶体并非诞生于普通的内质网，而是起始于被称为“过氧化物酶体前体内质网（pER）”的特殊区域，该区域富含特定的磷脂成分，为膜的出芽提供物理基础。在这一区域，内质网膜发生局部变形，准备通过“出芽”方式释放前体囊泡。",
+          "relatedIds": ["c2"],
+          "linkedresourceIds": ["res_02"]
+        },
+        {
+          "id": "c3",
+          "dafult": false,
+          "name": "PEX16蛋白(PEX16)",
+          "explanation": "Pex16作为调节蛋白，协助Pex3在内质网特定亚区的聚集。这种聚集效应是启动膜出芽的生化信号。它参与协调脂质的募集和膜曲率的改变，确保前体囊泡能携带正确的蛋白组分顺利脱离内质网。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_03"]
+        },
+        {
+          "id": "c4",
+          "dafult": false,
+          "name": "过氧化物影(preperoxisomal vesicle)",
+          "explanation": "过氧化物影本质上是缺乏基质蛋白的过氧化物酶体膜囊泡，在从内质网出芽到完全发育成过氧化物酶体的期间，囊泡内部不具有对应的酶，处于过氧化物影阶段。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_04"]
+        },
+        {
+          "id": "c5",
+          "dafult": false,
+          "name": "PTS1/PTS2信号(peroxisomal targeting signal 1/2)",
+          "explanation": "一旦囊泡融合形成初步结构，它必须摄入代谢所需的酶。PTS1/PTS2信号序列是基质蛋白上的识别区域，位于蛋白质的末端。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_05"]
+        },
+        {
+          "id": "c6",
+          "dafult": false,
+          "name": "PEX5/PEX7蛋白(PEX5/PEX7)",
+          "explanation": "Pex5/PEX7在细胞质中识别并抓住带有PTS1/PTS2信号的蛋白质，将其带到过氧化物酶体膜上的“转位子复合体”处。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_06", "res_09"]
+        },
+        {
+          "id": "c7",
+          "dafult": false,
+          "name": "PEX3蛋白(PEX3)",
+          "explanation": "Pex3是一种整合膜蛋白，其大部分结构暴露在细胞质侧，形成一个特殊的结合口袋，Pex3在内质网上的定位直接决定了哪些区域将演变为过氧化物酶体前体。Pex19带着过氧化物酶体膜蛋白与 Pex3结合，形成Pex19-Pex3复合物。这一结合触发构象变化，促使过氧化物酶体膜蛋白插入内质网的脂质双分子层中。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_07"]
+        },
+        {
+          "id": "c8",
+          "dafult": false,
+          "name": "PEX19蛋白(PEX19)",
+          "explanation": "PEX19在细胞质中充当分子伴侣，识别并结合新合成的过氧化物酶体膜蛋白的膜进入信号。不仅能够防止具有疏水特性的膜蛋白在细胞质中发生错误折叠或聚合，还保护它们免受降解。",
+          "relatedIds": ["c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedresourceIds": ["res_08"]
+        }
+      ]
+    }
+  ]
+}

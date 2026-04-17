@@ -1,0 +1,757 @@
+{
+  "name": "动画脚本及资源组织文件",
+  "scripts": [
+    {
+      "id": "S01",
+      "storyboards": [
+        {
+          "id": "storyboard_01",
+          "title": "RNA翻译开始",
+          "camera": "全景镜头",
+          "content": "核糖体与mRNA的初始结合，展示起始复合物的组装过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": [
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "c6",
+            "c7",
+            "c8",
+            "c9"
+          ],
+          "linkedFrameIds": ["T01F01"]
+        },
+        {
+          "id": "storyboard_02",
+          "title": "RNA翻译结束",
+          "camera": "全景镜头",
+          "content": "核糖体与mRNA的末端结合，展示翻译完成过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": [
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "c6",
+            "c7",
+            "c8",
+            "c9"
+          ],
+          "linkedFrameIds": ["T01F02"]
+        },
+        {
+          "id": "storyboard_03",
+          "title": "多肽链释放",
+          "camera": "全景镜头",
+          "content": "核糖体与mRNA终止结合，展示肽链释放的过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": [
+            "c1",
+            "c2",
+            "c3",
+            "c4",
+            "c5",
+            "c6",
+            "c7",
+            "c8",
+            "c9"
+          ],
+          "linkedFrameIds": ["T01F03"]
+        },
+        {
+          "id": "storyboard_04",
+          "title": "RNA翻译开始",
+          "camera": "特写镜头",
+          "content": "核糖体与mRNA的初始结合，展示起始复合物的组装过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": ["c1", "c2", "c9"],
+          "linkedFrameIds": ["T01F04"]
+        },
+        {
+          "id": "storyboard_05",
+          "title": "RNA翻译结束",
+          "camera": "特写镜头",
+          "content": "核糖体与mRNA的末端结合，展示翻译完成过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": ["c1", "c2", "c9"],
+          "linkedFrameIds": ["T01F05"]
+        },
+        {
+          "id": "storyboard_06",
+          "title": "多肽链释放",
+          "camera": "特写镜头",
+          "content": "核糖体与mRNA终止结合，展示肽链释放的过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03"],
+          "triggerComponents": ["c1", "c2", "c9"],
+          "linkedFrameIds": ["T01F06"]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res_01",
+          "type": "图像",
+          "name": "核糖体(ribosome)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_02",
+          "type": "图像",
+          "name": "信使RNA(mRNA)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_03",
+          "type": "图像",
+          "name": "内质网",
+          "status": "已就绪"
+        },
+        {
+          "id": "res_04",
+          "type": "图像",
+          "name": "高尔基体(Golgi apparatus)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_05",
+          "type": "图像",
+          "name": "细胞核(nucleus)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_06",
+          "type": "图像",
+          "name": "溶酶体(lysosome)",
+          "status": "已就绪"
+        },
+        {
+          "id": "res_07",
+          "type": "图像",
+          "name": "线粒体(mitochondria)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_08",
+          "type": "图像",
+          "name": "叶绿体(chloroplast)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_09",
+          "type": "图像",
+          "name": "多肽链(polypeptide chain)",
+          "status": "待生成"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "storyboards": [
+        {
+          "id": "storyboard_01",
+          "title": "V1 Importin与NLS结合前",
+          "camera": "固定镜头",
+          "content": "Importin与NLS结合前，蛋白质在胞质中的状态。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F01"]
+        },
+        {
+          "id": "storyboard_02",
+          "title": "Importin与NLS结合",
+          "camera": "固定镜头",
+          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F02"]
+        },
+        {
+          "id": "storyboard_03",
+          "title": "转运复合体穿越核孔复合体-1",
+          "camera": "固定镜头",
+          "content": "转运复合体开始通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F03"]
+        },
+        {
+          "id": "storyboard_04",
+          "title": "转运复合体穿越核孔复合体-2",
+          "camera": "固定镜头",
+          "content": "转运复合体通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F04"]
+        },
+        {
+          "id": "storyboard_05",
+          "title": "转运复合体进入细胞核",
+          "camera": "固定镜头",
+          "content": "转运复合体在细胞核内，RAN-GTP出现",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F05"]
+        },
+        {
+          "id": "storyboard_06",
+          "title": "RAN-GTP与转运复合体结合",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与转运复合体结合，促进货物释放",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F06"]
+        },
+        {
+          "id": "storyboard_07",
+          "title": "转运复合体释放货物（蛋白质）",
+          "camera": "固定镜头",
+          "content": "蛋白质被释放，Importin与RAN-GTP形成复合物",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F07"]
+        },
+        {
+          "id": "storyboard_08",
+          "title": "复合物穿越核孔复合体-1",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与Importin结合形成的复合物穿越核孔复合体在核孔复合体的细胞核一侧，开始通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F08"]
+        },
+        {
+          "id": "storyboard_09",
+          "title": "复合物通过核孔复合体-2",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与Importin结合形成的复合物穿越核孔复合体在核孔复合体的细胞质一侧，通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F09"]
+        },
+        {
+          "id": "storyboard_10",
+          "title": "复合物进入细胞质",
+          "camera": "固定镜头",
+          "content": "复合物在细胞质侧，RAN-GAP出现",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_07"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F10"]
+        },
+        {
+          "id": "storyboard_11",
+          "title": "RAN-GAP与复合物结合",
+          "camera": "固定镜头",
+          "content": "RAN-GAP与复合物结合，促进RAN-GTP的水解",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_07"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F11"]
+        },
+        {
+          "id": "storyboard_12",
+          "title": "复合物解离",
+          "camera": "固定镜头",
+          "content": "复合物解离，Importin和RAN-GDP分开，Importin准备下一轮转运",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_06",
+            "res_07"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
+          "linkedFrameIds": ["T02F12"]
+        },
+        {
+          "id": "storyboard_13",
+          "title": "V2 Importin与NLS结合前",
+          "camera": "固定镜头",
+          "content": "Importin与NLS结合前，蛋白质在胞质中的状态。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F13"]
+        },
+        {
+          "id": "storyboard_14",
+          "title": "Importin与NLS结合",
+          "camera": "固定镜头",
+          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程。",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F14"]
+        },
+        {
+          "id": "storyboard_15",
+          "title": "转运复合体穿越核孔复合体-1",
+          "camera": "固定镜头",
+          "content": "转运复合体开始通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F15"]
+        },
+        {
+          "id": "storyboard_16",
+          "title": "转运复合体穿越核孔复合体-2",
+          "camera": "固定镜头",
+          "content": "转运复合体通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F16"]
+        },
+        {
+          "id": "storyboard_17",
+          "title": "转运复合体进入细胞核",
+          "camera": "固定镜头",
+          "content": "转运复合体在细胞核内，RAN-GTP出现",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F17"]
+        },
+        {
+          "id": "storyboard_18",
+          "title": "RAN-GTP与转运复合体结合",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与转运复合体结合，促进货物释放",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F18"]
+        },
+        {
+          "id": "storyboard_19",
+          "title": "转运复合体释放货物（蛋白质）",
+          "camera": "固定镜头",
+          "content": "蛋白质被释放，Importin与RAN-GTP形成复合物",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F19"]
+        },
+        {
+          "id": "storyboard_20",
+          "title": "复合物穿越核孔复合体-1",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与Importin结合形成的复合物穿越核孔复合体在核孔复合体的细胞核一侧，开始通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F20"]
+        },
+        {
+          "id": "storyboard_21",
+          "title": "复合物通过核孔复合体-2",
+          "camera": "固定镜头",
+          "content": "RAN-GTP与Importin结合形成的复合物穿越核孔复合体在核孔复合体的细胞质一侧，通过核孔复合体",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F21"]
+        },
+        {
+          "id": "storyboard_22",
+          "title": "复合物进入细胞质",
+          "camera": "固定镜头",
+          "content": "复合物在细胞质侧，RAN-GAP出现",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_07"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F22"]
+        },
+        {
+          "id": "storyboard_23",
+          "title": "RAN-GAP与复合物结合",
+          "camera": "固定镜头",
+          "content": "RAN-GAP与复合物结合，促进RAN-GTP的水解",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_07"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F23"]
+        },
+        {
+          "id": "storyboard_24",
+          "title": "复合物解离",
+          "camera": "固定镜头",
+          "content": "复合物解离，Importin和RAN-GDP分开，Importin准备下一轮转运",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_06",
+            "res_07",
+            "res_08"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+          "linkedFrameIds": ["T02F24"]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res_01",
+          "type": "图像",
+          "name": "核膜双层结构剖面",
+          "status": "已就绪"
+        },
+        {
+          "id": "res_02",
+          "type": "图像",
+          "name": "核孔复合体（NPC）",
+          "status": "待生成"
+        },
+        {
+          "id": "res_03",
+          "type": "图像",
+          "name": "蛋白质（带有核定位信号）",
+          "status": "待生成"
+        },
+        {
+          "id": "res_04",
+          "type": "图像",
+          "name": "核输入蛋白（importin）",
+          "status": "待生成"
+        },
+        {
+          "id": "res_05",
+          "type": "图像",
+          "name": "RAN-GTP",
+          "status": "待生成"
+        },
+        {
+          "id": "res_06",
+          "type": "图像",
+          "name": "RAN-GDP",
+          "status": "待生成"
+        },
+        {
+          "id": "res_07",
+          "type": "图像",
+          "name": "RAN-GAP",
+          "status": "待生成"
+        },
+        {
+          "id": "res_08",
+          "type": "图像",
+          "name": "磷酸分子(Pi)",
+          "status": "待生成"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "storyboards": [
+        {
+          "id": "storyboard_01",
+          "title": "过氧化物酶体生长",
+          "camera": "固定镜头",
+          "content": "成熟过氧化物酶体通过摄入脂质和膜蛋白不断增大体积，发生膜的延伸，形成管状结构",
+          "duration": "00:03",
+          "relatedResources": ["res_01"],
+          "triggerComponents": ["c1", "c2"],
+          "linkedFrameIds": ["T03F01"]
+        },
+        {
+          "id": "storyboard_02",
+          "title": "过氧化物酶体膜收缩",
+          "camera": "固定镜头",
+          "content": "收缩蛋白被募集到管状膜上，作为“锚点”吸引动力蛋白相关的GTP酶",
+          "duration": "00:03",
+          "relatedResources": ["res_01"],
+          "triggerComponents": ["c1", "c2"],
+          "linkedFrameIds": ["T03F02"]
+        },
+        {
+          "id": "storyboard_03",
+          "title": "过氧化物酶体剪切释放",
+          "camera": "固定镜头",
+          "content": "GTP酶在收缩位点形成环状结构，通过水解GTP产生机械力，将管状膜“勒断”，从而由一个母体产生两个子代过氧化物酶体",
+          "duration": "00:03",
+          "relatedResources": ["res_01"],
+          "triggerComponents": ["c1", "c2"],
+          "linkedFrameIds": ["T03F03"]
+        },
+        {
+          "id": "storyboard_04",
+          "title": "过氧化物酶体形成",
+          "camera": "固定镜头",
+          "content": "分割出来的子过氧化物酶体发育成新的成熟过氧化物酶体",
+          "duration": "00:03",
+          "relatedResources": ["res_01"],
+          "triggerComponents": ["c1", "c2"],
+          "linkedFrameIds": ["T03F04"]
+        },
+        {
+          "id": "storyboard_05",
+          "title": "内质网出芽-1",
+          "camera": "固定镜头",
+          "content": "内质网的特定区域会募集过氧化物酶体膜蛋白Pex3和Pex19，形成过氧化物酶体前体膜结构",
+          "duration": "00:03",
+          "relatedResources": ["res_02", "res_07", "res_08"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F05"]
+        },
+        {
+          "id": "storyboard_06",
+          "title": "c",
+          "camera": "固定镜头",
+          "content": "Pex3和Pex19蛋白在内质网膜上组装，引导过氧化物酶体前体膜结构的形成",
+          "duration": "00:03",
+          "relatedResources": ["res_02", "res_03", "res_07", "res_08"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F06"]
+        },
+        {
+          "id": "storyboard_07",
+          "title": "内质网出芽-3",
+          "camera": "固定镜头",
+          "content": "过氧化物酶体前体膜结构向外延伸形成前体过氧化物酶体囊泡",
+          "duration": "00:03",
+          "relatedResources": ["res_02", "res_03", "res_07", "res_08"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F07"]
+        },
+        {
+          "id": "storyboard_08",
+          "title": "形成过氧化物影",
+          "camera": "固定镜头",
+          "content": "来自内质网的不同类型的前体囊泡（携带不同的蛋白成分）在细胞质中发生融合，形成一个具有基本膜结构的初级过氧化物酶体影泡",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_02",
+            "res_03",
+            "res_04",
+            "res_07",
+            "res_08"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F08"]
+        },
+        {
+          "id": "storyboard_09",
+          "title": "基质蛋白转入-1",
+          "camera": "固定镜头",
+          "content": "具体PTS1信号的基质蛋白被PEX5识别并结合，形成复合物，该复合物与过氧化物影泡膜上的PEX14相互作用，介导基质蛋白的转运",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_06",
+            "res_07",
+            "res_08"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F09"]
+        },
+        {
+          "id": "storyboard_10",
+          "title": "基质蛋白转入-2",
+          "camera": "固定镜头",
+          "content": "具有PTS2信号的基质蛋白被PEX7识别并结合，形成复合物，该复合物与过氧化物影泡膜上的PEX14相互作用，介导基质蛋白的转运",
+          "duration": "00:03",
+          "relatedResources": [
+            "res_01",
+            "res_03",
+            "res_04",
+            "res_05",
+            "res_07",
+            "res_08",
+            "res_09"
+          ],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F10"]
+        },
+        {
+          "id": "storyboard_11",
+          "title": "形成过氧化物酶体-1",
+          "camera": "固定镜头",
+          "content": "基质蛋白被转入过氧化物影泡后，过氧化物酶体前体影泡逐渐成熟",
+          "duration": "00:03",
+          "relatedResources": ["res_02"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F11"]
+        },
+        {
+          "id": "storyboard_12",
+          "title": "形成过氧化物酶体-2",
+          "camera": "固定镜头",
+          "content": "过氧化物酶体前体影泡成熟后，形成具有完整膜结构和功能的过氧化物酶体",
+          "duration": "00:03",
+          "relatedResources": ["res_01", "res_02"],
+          "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
+          "linkedFrameIds": ["T03F12"]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res_01",
+          "type": "图像",
+          "name": "过氧化物酶体(peroxisome)",
+          "status": "已就绪"
+        },
+        {
+          "id": "res_02",
+          "type": "图像",
+          "name": "内质网(ER)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_03",
+          "type": "图像",
+          "name": "PEX16蛋白",
+          "status": "待生成"
+        },
+        {
+          "id": "res_04",
+          "type": "图像",
+          "name": "过氧化物影泡(peroxisomal vesicle)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_05",
+          "type": "图像",
+          "name": "蛋白质(带有PTS1/PTS2信号)",
+          "status": "待生成"
+        },
+        {
+          "id": "res_06",
+          "type": "图像",
+          "name": "PEX5",
+          "status": "待生成"
+        },
+        {
+          "id": "res_07",
+          "type": "图像",
+          "name": "PEX3",
+          "status": "待生成"
+        },
+        {
+          "id": "res_08",
+          "type": "图像",
+          "name": "PEX19",
+          "status": "待生成"
+        },
+        {
+          "id": "res_09",
+          "type": "图像",
+          "name": "PEX7",
+          "status": "待生成"
+        }
+      ]
+    }
+  ]
+}

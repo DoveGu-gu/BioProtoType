@@ -1,0 +1,166 @@
+{
+  "name": "评审数据组织文件",
+  "reviewsOfTasks": [
+    {
+      "Id": "R01",
+      "frameReviews": [
+        {
+          "id": "RF01",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F01", "T01F02", "T01F03"],
+          "originalSuggestion": "当前关键帧背景较为复杂，建议将镜头聚焦于核糖体与mRNA的结合过程，简化背景元素。",
+          "linkedContent": ["T01F04", "T01F05", "T01F06"],
+          "processedResult": "画面聚焦于核糖体与mRNA的结合过程，简化了背景元素。",
+          "exclusion": ["RF02"]
+        },
+        {
+          "id": "RF02",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F04", "T01F05", "T01F06"],
+          "originalSuggestion": "当前关键帧背景较为空旷，建议增加细胞环境元素以增强沉浸感。",
+          "linkedContent": ["T01F01", "T01F02", "T01F03"],
+          "processedResult": "添加了细胞核、高尔基体等细胞环境元素",
+          "exclusion": ["RF01"]
+        }
+      ],
+      "animationReviews": [
+        {
+          "id": "RA01",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A01"],
+          "originalSuggestion": "当前动画节奏较慢，建议加快动画节奏",
+          "linkedContent": ["T01A02"],
+          "processedResult": "加快了动画的节奏，调整为1.5倍",
+          "exclusion": ["RA02"]
+        },
+        {
+          "id": "RA02",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A02"],
+          "originalSuggestion": "当前动画节奏较快，建议减慢动画节奏。",
+          "linkedContent": ["T01A01"],
+          "processedResult": "调整动画播放速度为1/2",
+          "exclusion": ["RA01"]
+        },
+        {
+          "id": "RA03",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A04"],
+          "originalSuggestion": "当前动画节奏较快，建议减慢动画节奏。",
+          "linkedContent": ["T01A03"],
+          "processedResult": "调整动画播放速度为1/2",
+          "exclusion": ["RA04"]
+        },
+        {
+          "id": "RA04",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A03"],
+          "originalSuggestion": "当前动画节奏较慢，建议加快动画节奏",
+          "linkedContent": ["T01A04"],
+          "processedResult": "调整动画播放速度为1.5倍",
+          "exclusion": ["RA03"]
+        }
+      ]
+    },
+    {
+      "Id": "R02",
+      "frameReviews": [
+        {
+          "id": "RF01",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": [
+            "T02F01",
+            "T02F02",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "originalSuggestion": "当前关键帧中素材较为粗糙，建议调整素材更为平滑自然。",
+          "linkedContent": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "processedResult": "将关键帧中核输入蛋白、RAN-GTP、RAN-GDP、RAN-GAP素材调整得更为平滑自然",
+          "exclusion": ["RF02"]
+        },
+        {
+          "id": "RF02",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "originalSuggestion": "当前关键帧中素材较为平滑无细节，建议调整素材更为细致以突出细节。",
+          "linkedContent": [
+            "T02F01",
+            "T02F02",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "processedResult": "将关键帧中核输入蛋白、RAN-GTP、RAN-GDP、RAN-GAP素材调整得更为细致，细节明显",
+          "exclusion": ["RF01"]
+        }
+      ],
+      "animationReviews": []
+    },
+    {
+      "Id": "R03",
+      "frameReviews": [],
+      "animationReviews": [
+        {
+          "id": "RA01",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T03A01"],
+          "originalSuggestion": "当前动画节奏较慢，建议加快动画节奏",
+          "linkedContent": ["T03A01"],
+          "processedResult": "调整动画播放速度为1.5倍",
+          "exclusion": []
+        }
+      ]
+    }
+  ]
+}

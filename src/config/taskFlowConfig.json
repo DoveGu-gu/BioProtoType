@@ -1,0 +1,56 @@
+{
+  "name": "预设任务流程配置",
+  "version": "1.0",
+  "description": "定义了预设的任务流程，包括每个任务所需的知识点、脚本、关键帧和动画资源。",
+  "currentTaskId": "task_03",
+  "tasks": [
+    {
+      "taskId": "task_01",
+      "taskName": "RNA翻译蛋白质",
+      "description": "简单任务",
+      "allResourcesList": {
+        "knowledge": "K01",
+        "scripts": "S01",
+        "frames": "F01",
+        "animations": "A01",
+        "reviews": "R01"
+      },
+      "reviewsCount": {
+        "Frame": 2,
+        "Animation": 2
+      }
+    },
+    {
+      "taskId": "task_02",
+      "taskName": "核输入蛋白的转运",
+      "description": "中等难度任务",
+      "allResourcesList": {
+        "knowledge": "K02",
+        "scripts": "S02",
+        "frames": "F02",
+        "animations": "A02",
+        "reviews": "R02"
+      },
+      "reviewsCount": {
+        "Frame": 1,
+        "Animation": 0
+      }
+    },
+    {
+      "taskId": "task_03",
+      "taskName": "过氧化物酶体的形成",
+      "description": "困难任务",
+      "allResourcesList": {
+        "knowledge": "K03",
+        "scripts": "S03",
+        "frames": "F03",
+        "animations": "A03",
+        "reviews": "R03"
+      },
+      "reviewsCount": {
+        "Frame": 1,
+        "Animation": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "name": "关键帧资源组织文件",
+  "frameOfTasks": [
+    {
+      "Id": "F01",
+      "frames": [
+        {
+          "id": "T01F01",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F02",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F03",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T01F04",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "特写镜头，聚焦于核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F05",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "特写镜头，聚焦于核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F06",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "特写镜头，聚焦于释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-03.png",
+          "color": "#ffe58f"
+        }
+      ]
+    },
+    {
+      "Id": "F02",
+      "frames": [
+        {
+          "id": "T02F01",
+          "frameId": "F01",
+          "title": "关键帧 01: Importin与NLS结合前",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V1-K01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F02",
+          "frameId": "F02",
+          "title": "关键帧 02: Importin与NLS结合",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V1-K02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F03",
+          "frameId": "F03",
+          "title": "关键帧 03: 转运复合体穿越核孔复合体-1",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V1-K03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F04",
+          "frameId": "F04",
+          "title": "关键帧 04: 转运复合体穿越核孔复合体-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V1-K04.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F05",
+          "frameId": "F05",
+          "title": "关键帧 05: 转运复合体进入细胞核",
+          "description": "细胞环境全景背景，展示转运复合体在细胞核内，RAN-GTP出现",
+          "imageUrl": "/images/keyframes/task2/V1-K05.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F06",
+          "frameId": "F06",
+          "title": "关键帧 06: RAN-GTP与转运复合体结合",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V1-K06.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F07",
+          "frameId": "F07",
+          "title": "关键帧 07: 转运复合体释放货物（蛋白质）",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V1-K07.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F08",
+          "frameId": "F08",
+          "title": "关键帧 08: 复合物穿越核孔复合体-1",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V1-K08.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F09",
+          "frameId": "F09",
+          "title": "关键帧 09: 复合物通过核孔复合体-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V1-K09.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F10",
+          "frameId": "F10",
+          "title": "关键帧 10: 复合物进入细胞质",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V1-K10.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F11",
+          "frameId": "F11",
+          "title": "关键帧 11: RAN-GAP与复合物结合",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V1-K11.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F12",
+          "frameId": "F12",
+          "title": "关键帧 12: 复合物解离",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V1-K12.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F13",
+          "frameId": "F01",
+          "title": "关键帧 01: Importin与NLS结合前",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V2-K01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F14",
+          "frameId": "F02",
+          "title": "关键帧 02: Importin与NLS结合",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V2-K02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F15",
+          "frameId": "F03",
+          "title": "关键帧 03: 转运复合体穿越核孔复合体-1",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V2-K03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F16",
+          "frameId": "F04",
+          "title": "关键帧 04: 转运复合体穿越核孔复合体-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V2-K04.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F17",
+          "frameId": "F05",
+          "title": "关键帧 05: 转运复合体进入细胞核",
+          "description": "细胞环境全景背景，展示转运复合体在细胞核内，RAN-GTP出现",
+          "imageUrl": "/images/keyframes/task2/V2-K05.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F18",
+          "frameId": "F06",
+          "title": "关键帧 06: RAN-GTP与转运复合体结合",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V2-K06.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F19",
+          "frameId": "F07",
+          "title": "关键帧 07: 转运复合体释放货物（蛋白质）",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V2-K07.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F20",
+          "frameId": "F08",
+          "title": "关键帧 08: 转运复合体穿越核孔复合体-1",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V2-K08.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F21",
+          "frameId": "F09",
+          "title": "关键帧 09: 转运复合体穿越核孔复合体-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V2-K09.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T02F22",
+          "frameId": "F10",
+          "title": "关键帧 10: 转运复合体进入细胞质",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task2/V2-K10.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T02F23",
+          "frameId": "F11",
+          "title": "关键帧 11: RAN-GAP与复合物结合",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task2/V2-K11.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T02F24",
+          "frameId": "F12",
+          "title": "关键帧 12: 复合物解离",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task2/V2-K12.png",
+          "color": "#ffe58f"
+        }
+      ]
+    },
+    {
+      "Id": "F03",
+      "frames": [
+        {
+          "id": "T03F01",
+          "frameId": "F01",
+          "title": "关键帧 1: 过氧化物酶体生长",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P1-K01.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F02",
+          "frameId": "F02",
+          "title": "关键帧 2: 过氧化物酶体膜收缩",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P1-K02.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F03",
+          "frameId": "F03",
+          "title": "关键帧 3: 过氧化物酶体剪切释放",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P1-K03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F04",
+          "frameId": "F04",
+          "title": "关键帧 4: 过氧化物酶体形成",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P1-K04.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F05",
+          "frameId": "F01",
+          "title": "关键帧 1: 内质网出芽-1",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K01.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F06",
+          "frameId": "F02",
+          "title": "关键帧 2: 内质网出芽-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K02.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F07",
+          "frameId": "F03",
+          "title": "关键帧 3: 内质网出芽-3",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F08",
+          "frameId": "F04",
+          "title": "关键帧 4: 形成过氧化物影",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K04.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F09",
+          "frameId": "F05",
+          "title": "关键帧 5: 基质蛋白转入-1",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K05.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F10",
+          "frameId": "F06",
+          "title": "关键帧 6: 基质蛋白转入-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K06.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F11",
+          "frameId": "F07",
+          "title": "关键帧 7: 形成过氧化物酶体-1",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K07.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T03F12",
+          "frameId": "F08",
+          "title": "关键帧 8: 形成过氧化物酶体-2",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task3/P2-K08.png",
+          "color": "#ffe58f"
+        }
+      ]
+    }
+  ]
+}

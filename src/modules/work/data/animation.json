@@ -1,0 +1,119 @@
+{
+  "name": "动画数据组织文件",
+  "animationsOfTasks": [
+    {
+      "Id": "A01",
+      "animations": [
+        {
+          "id": "T01A01",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、特写，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Normal.mp4",
+          "triggerFrames": ["T01F04", "T01F05", "T01F06"],
+          "isReady": true
+        },
+        {
+          "id": "T01A02",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、特写，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Fast-1.5.mp4",
+          "triggerFrames": ["T01F04", "T01F05", "T01F06"],
+          "isReady": true
+        },
+        {
+          "id": "T01A03",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、全景，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Normal.mp4",
+          "triggerFrames": ["T01F01", "T01F02", "T01F03"],
+          "isReady": true
+        },
+        {
+          "id": "T01A04",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、全景，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Fast-1.5.mp4",
+          "triggerFrames": ["T01F01", "T01F02", "T01F03"],
+          "isReady": true
+        }
+      ]
+    },
+    {
+      "Id": "A02",
+      "animations": [
+        {
+          "id": "T02A01",
+          "title": "蛋白质跨核膜运输可视化",
+          "description": "素材版本V1，蛋白质跨核膜运输过程的动画展示",
+          "videoUrl": "/videos/task2/Task02_V1.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A02",
+          "title": "蛋白质跨核膜运输可视化",
+          "description": "素材版本V2，蛋白质跨核膜运输过程的动画展示",
+          "videoUrl": "/videos/task2/Task02_V2.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        }
+      ]
+    },
+    {
+      "Id": "A03",
+      "animations": [
+        {
+          "id": "T03A01",
+          "title": "过氧化物酶体分裂形成途径可视化",
+          "description": "过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03_P1.mp4",
+          "triggerFrames": ["T03F01", "T03F02", "T03F03", "T03F04"],
+          "isReady": true
+        },
+        {
+          "id": "T03A02",
+          "title": "过氧化物酶体从源头合成途径可视化",
+          "description": "过氧化物酶体从头合成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03_P2.mp4",
+          "triggerFrames": [
+            "T03F05",
+            "T03F06",
+            "T03F07",
+            "T03F08",
+            "T03F09",
+            "T03F10",
+            "T03F11",
+            "T03F12"
+          ],
+          "isReady": true
+        }
+      ]
+    }
+  ]
+}
