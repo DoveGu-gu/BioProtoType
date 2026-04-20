@@ -42,7 +42,7 @@
           "originalSuggestion": "当前多肽链的信号肽部分为红色与RNA相同，可能产生歧义，建议将信号肽部分的颜色调整为绿色。",
           "linkedContent": ["T01F10", "T01F11", "T01F12"],
           "processedResult": "将多肽链的信号肽部分颜色调整为绿色以区分RNA",
-          "exclusion": ["RA01"]
+          "exclusion": []
         },
         {
           "id": "RF05",
