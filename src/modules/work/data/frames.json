@@ -51,6 +51,102 @@
           "description": "特写镜头，聚焦于释放的多肽链",
           "imageUrl": "/images/keyframes/task1/Frame-Focus-03.png",
           "color": "#ffe58f"
+        },
+        {
+          "id": "T01F07",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Colored-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F08",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Colored-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F09",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Colored-03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T01F10",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "特写镜头，聚焦于核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Colored-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F11",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "特写镜头，聚焦于核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Colored-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F12",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "特写镜头，聚焦于释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Colored-03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T01F13",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Wrong-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F14",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "细胞环境全景背景，展示核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Wrong-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F15",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "细胞环境全景背景，展示释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-FullScene-Wrong-03.png",
+          "color": "#ffe58f"
+        },
+        {
+          "id": "T01F16",
+          "frameId": "F01",
+          "title": "关键帧 01: RNA翻译开始",
+          "description": "特写镜头，聚焦于核糖体与mRNA的初始结合",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Wrong-01.png",
+          "color": "#ffccc7"
+        },
+        {
+          "id": "T01F17",
+          "frameId": "F02",
+          "title": "关键帧 02: RNA翻译结束",
+          "description": "特写镜头，聚焦于核糖体与mRNA的末端结合，完成蛋白质合成",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Wrong-02.png",
+          "color": "#ffd8bf"
+        },
+        {
+          "id": "T01F18",
+          "frameId": "F03",
+          "title": "关键帧 03: 多肽链释放",
+          "description": "特写镜头，聚焦于释放的多肽链",
+          "imageUrl": "/images/keyframes/task1/Frame-Focus-Wrong-03.png",
+          "color": "#ffe58f"
         }
       ]
     },

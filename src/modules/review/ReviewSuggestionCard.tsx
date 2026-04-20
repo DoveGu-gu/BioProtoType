@@ -23,11 +23,13 @@ const ReviewSuggestionCard: React.FC<ReviewSuggestionCardProps> = ({
     未处理: "#f0f0f0",
     已确认: "#e6f7ff",
     已拒绝: "#fff1f0",
+    已失效: "#f5f5f5",
   };
   const statusTextColorMap: Record<string, string> = {
     未处理: "#8c8c8c",
     已确认: "#1890ff",
     已拒绝: "#ff4d4f",
+    已失效: "#8c8c8c",
   };
 
   // --- 核心修改1：卡片主体内容区域的强烈背景色映射 ---
@@ -35,11 +37,13 @@ const ReviewSuggestionCard: React.FC<ReviewSuggestionCardProps> = ({
     未处理: "#d4b106", // 警示金黄
     已确认: "#52c41a", // 成功绿色
     已拒绝: "#ff4d4f", // 拒绝红色
+    已失效: "#bfbfbf", // 失效灰色
   };
   const mainBorderColorMap: Record<string, string> = {
     未处理: "#c4a100",
     已确认: "#389e0d",
     已拒绝: "#cf1322",
+    已失效: "#8c8c8c",
   };
 
   return (
@@ -110,7 +114,7 @@ const ReviewSuggestionCard: React.FC<ReviewSuggestionCardProps> = ({
         }}
       >
         <Text style={{ color: "#fff", fontSize: "14px" }}>
-          {suggestion.status === "未处理"
+          {suggestion.status === "未处理" || suggestion.status === "已失效"
             ? suggestion.originalSuggestion
             : suggestion.finalSuggestion}
         </Text>

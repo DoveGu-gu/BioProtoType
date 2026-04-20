@@ -2,7 +2,7 @@
   "name": "预设任务流程配置",
   "version": "1.0",
   "description": "定义了预设的任务流程，包括每个任务所需的知识点、脚本、关键帧和动画资源。",
-  "currentTaskId": "task_03",
+  "currentTaskId": "task_01",
   "tasks": [
     {
       "taskId": "task_01",
@@ -16,8 +16,8 @@
         "reviews": "R01"
       },
       "reviewsCount": {
-        "Frame": 2,
-        "Animation": 2
+        "Frame": 6,
+        "Animation": 4
       }
     },
     {

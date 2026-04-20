@@ -22,7 +22,7 @@
             "c8",
             "c9"
           ],
-          "linkedFrameIds": ["T01F01"]
+          "linkedFrameIds": ["T01F13"]
         },
         {
           "id": "storyboard_02",
@@ -42,7 +42,7 @@
             "c8",
             "c9"
           ],
-          "linkedFrameIds": ["T01F02"]
+          "linkedFrameIds": ["T01F14"]
         },
         {
           "id": "storyboard_03",
@@ -62,7 +62,7 @@
             "c8",
             "c9"
           ],
-          "linkedFrameIds": ["T01F03"]
+          "linkedFrameIds": ["T01F15"]
         },
         {
           "id": "storyboard_04",
@@ -72,7 +72,7 @@
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03"],
           "triggerComponents": ["c1", "c2", "c9"],
-          "linkedFrameIds": ["T01F04"]
+          "linkedFrameIds": ["T01F16"]
         },
         {
           "id": "storyboard_05",
@@ -82,7 +82,7 @@
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03"],
           "triggerComponents": ["c1", "c2", "c9"],
-          "linkedFrameIds": ["T01F05"]
+          "linkedFrameIds": ["T01F17"]
         },
         {
           "id": "storyboard_06",
@@ -92,7 +92,7 @@
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03"],
           "triggerComponents": ["c1", "c2", "c9"],
-          "linkedFrameIds": ["T01F06"]
+          "linkedFrameIds": ["T01F18"]
         }
       ],
       "resources": [
@@ -106,13 +106,13 @@
           "id": "res_02",
           "type": "图像",
           "name": "信使RNA(mRNA)",
-          "status": "待生成"
+          "status": "已就绪"
         },
         {
           "id": "res_03",
           "type": "图像",
           "name": "内质网",
-          "status": "已就绪"
+          "status": "待生成"
         },
         {
           "id": "res_04",
@@ -136,13 +136,13 @@
           "id": "res_07",
           "type": "图像",
           "name": "线粒体(mitochondria)",
-          "status": "待生成"
+          "status": "已就绪"
         },
         {
           "id": "res_08",
           "type": "图像",
           "name": "叶绿体(chloroplast)",
-          "status": "待生成"
+          "status": "已就绪"
         },
         {
           "id": "res_09",

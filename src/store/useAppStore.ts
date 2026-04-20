@@ -5,7 +5,7 @@ export interface Suggestion {
   id: string;
   stage: string; // 工作阶段
   relatedModule?: string; // 关联的模块，如 "Frame" | "Animation"
-  status: "未处理" | "已确认" | "已拒绝"; // 处理状态
+  status: "未处理" | "已确认" | "已拒绝" | "已失效"; // 处理状态
   originalSuggestion: string; // 系统的原始建议内容
   finalSuggestion: string; // 经用户审批的最终建议内容
   linkedContent?: string[]; // 确认后关联加载的内容
@@ -62,7 +62,7 @@ interface AppState {
   }) => void;
   updateSuggestion: (
     id: string,
-    status: "已确认" | "已拒绝",
+    status: "已确认" | "已拒绝" | "已失效",
     finalText: string,
   ) => void;
   setSuggestions: (suggestions: Suggestion[]) => void;

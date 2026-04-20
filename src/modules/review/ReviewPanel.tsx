@@ -266,21 +266,32 @@ const ReviewPanel: React.FC = () => {
             Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000;
           setTimeout(() => {
             setDelayingSuggestions((prev) =>
-              prev.filter((i) => i.stage !== item.stage),
+              prev.filter((i) => i.id !== item.id),
             );
-            addSuggestion({
-              id: item.id,
-              stage: item.stage,
-              relatedModule: item.relatedModule,
-              originalSuggestion: item.originalSuggestion,
-              linkedContent: item.linkedContent,
-              triggerSource: item.triggerSource,
-              processedResult: item.processedResult,
-              exclusion: item.exclusion,
-            });
-            message.info(
-              `系统产生了一条针对 [${item.triggerSource?.join(", ")}] 分析触发的修改建议`,
-            );
+
+            // 新增：在延迟结束准备推入 suggestions 时，检查其依赖是否仍然有效
+            const currentReadyEntities = useAppStore.getState().readyEntities;
+            const isStillValid = item.triggerSource
+              ? item.triggerSource.every((id: string) =>
+                  currentReadyEntities.includes(id),
+                )
+              : true;
+
+            if (isStillValid) {
+              addSuggestion({
+                id: item.id,
+                stage: item.stage,
+                relatedModule: item.relatedModule,
+                originalSuggestion: item.originalSuggestion,
+                linkedContent: item.linkedContent,
+                triggerSource: item.triggerSource,
+                processedResult: item.processedResult,
+                exclusion: item.exclusion,
+              });
+              message.info(
+                `系统产生了一条针对 [${item.triggerSource?.join(", ")}] 分析触发的修改建议`,
+              );
+            }
           }, randomDelay);
         });
       }
@@ -531,6 +542,22 @@ const ReviewPanel: React.FC = () => {
             if (linkTarget) {
               addApprovedReplacement(source, linkTarget);
               removeReadyEntity(source);
+
+              // 新增：自动将其他依赖该源的未处理建议标记为“已失效”
+              suggestions.forEach((s) => {
+                if (
+                  s.id !== currentItem.id &&
+                  s.status === "未处理" &&
+                  s.triggerSource &&
+                  s.triggerSource.includes(source)
+                ) {
+                  updateSuggestion(
+                    s.id,
+                    "已失效",
+                    "相关的触发内容已发生变更，该建议项自动失效",
+                  );
+                }
+              });
             }
           });
         }
@@ -583,9 +610,10 @@ const ReviewPanel: React.FC = () => {
       未处理: 1,
       已确认: 2,
       已拒绝: 3,
+      已失效: 4,
     };
     return [...suggestions].sort(
-      (a, b) => statusWeight[a.status] - statusWeight[b.status],
+      (a, b) => (statusWeight[a.status] || 5) - (statusWeight[b.status] || 5),
     );
   }, [suggestions]);
 

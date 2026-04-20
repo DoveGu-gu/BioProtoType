@@ -35,6 +35,86 @@
           "videoUrl": "/videos/task1/FullScene-Fast-1.5.mp4",
           "triggerFrames": ["T01F01", "T01F02", "T01F03"],
           "isReady": true
+        },
+        {
+          "id": "T01A05",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、特写、多肽链绿色信号肽，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Normal-Colored.mp4",
+          "triggerFrames": ["T01F10", "T01F11", "T01F12"],
+          "isReady": true
+        },
+        {
+          "id": "T01A06",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、特写、多肽链绿色信号肽，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Fast-1.5-Colored.mp4",
+          "triggerFrames": ["T01F10", "T01F11", "T01F12"],
+          "isReady": true
+        },
+        {
+          "id": "T01A07",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、全景、多肽链绿色信号肽，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Normal-Colored.mp4",
+          "triggerFrames": ["T01F07", "T01F08", "T01F09"],
+          "isReady": true
+        },
+        {
+          "id": "T01A08",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、全景、多肽链绿色信号肽，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Fast-1.5-Colored.mp4",
+          "triggerFrames": ["T01F07", "T01F08", "T01F09"],
+          "isReady": true
+        },
+        {
+          "id": "T01A09",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、特写、修正，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Normal-Revised.mp4",
+          "triggerFrames": ["T01F04", "T01F05", "T01F06"],
+          "isReady": true
+        },
+        {
+          "id": "T01A10",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、特写、修正，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Fast-1.5-Revised.mp4",
+          "triggerFrames": ["T01F04", "T01F05", "T01F06"],
+          "isReady": true
+        },
+        {
+          "id": "T01A11",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、全景、修正，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Normal-Revised.mp4",
+          "triggerFrames": ["T01F01", "T01F02", "T01F03"],
+          "isReady": true
+        },
+        {
+          "id": "T01A12",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "1.5倍速度、全景、修正，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Fast-1.5-Revised.mp4",
+          "triggerFrames": ["T01F01", "T01F02", "T01F03"],
+          "isReady": true
+        },
+        {
+          "id": "T01A13",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、全景、错误，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/FullScene-Normal-Wrong.mp4",
+          "triggerFrames": ["T01F13", "T01F14", "T01F15"],
+          "isReady": true
+        },
+        {
+          "id": "T01A14",
+          "title": "RNA翻译蛋白质可视化",
+          "description": "正常速度、特写、错误，RNA翻译蛋白质过程的动画展示",
+          "videoUrl": "/videos/task1/Focus-Normal-Wrong.mp4",
+          "triggerFrames": ["T01F16", "T01F17", "T01F18"],
+          "isReady": true
         }
       ]
     },

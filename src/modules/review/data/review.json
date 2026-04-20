@@ -23,6 +23,46 @@
           "linkedContent": ["T01F01", "T01F02", "T01F03"],
           "processedResult": "添加了细胞核、高尔基体等细胞环境元素",
           "exclusion": ["RF01"]
+        },
+        {
+          "id": "RF03",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F01", "T01F02", "T01F03"],
+          "originalSuggestion": "当前多肽链的信号肽部分为红色与RNA相同，可能产生歧义，建议将信号肽部分的颜色调整为绿色。",
+          "linkedContent": ["T01F07", "T01F08", "T01F09"],
+          "processedResult": "将多肽链的信号肽部分颜色调整为绿色以区分RNA",
+          "exclusion": []
+        },
+        {
+          "id": "RF04",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F04", "T01F05", "T01F06"],
+          "originalSuggestion": "当前多肽链的信号肽部分为红色与RNA相同，可能产生歧义，建议将信号肽部分的颜色调整为绿色。",
+          "linkedContent": ["T01F10", "T01F11", "T01F12"],
+          "processedResult": "将多肽链的信号肽部分颜色调整为绿色以区分RNA",
+          "exclusion": []
+        },
+        {
+          "id": "RF05",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F13", "T01F14", "T01F15"],
+          "originalSuggestion": "画面中核糖体的大小亚基完全接触，无明显空隙，建议调整核糖体的大小亚基位置。",
+          "linkedContent": ["T01F01", "T01F02", "T01F03"],
+          "processedResult": "调整了核糖体的大小亚基位置",
+          "exclusion": []
+        },
+        {
+          "id": "RF06",
+          "stage": "Frame",
+          "relatedModule": "Frame",
+          "triggerSource": ["T01F16", "T01F17", "T01F18"],
+          "originalSuggestion": "画面中核糖体的大亚基的失调，明显大于小亚基，建议调整核糖体的大亚基的比例。",
+          "linkedContent": ["T01F04", "T01F05", "T01F06"],
+          "processedResult": "缩小了核糖体的大亚基比例",
+          "exclusion": []
         }
       ],
       "animationReviews": [
@@ -65,6 +105,86 @@
           "linkedContent": ["T01A04"],
           "processedResult": "调整动画播放速度为1.5倍",
           "exclusion": ["RA03"]
+        },
+        {
+          "id": "RA05",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A01"],
+          "originalSuggestion": "在RNA翻译的起始阶段，RNA还未接触到核糖体，多肽链就已经发生合成，需要调整时序以确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "linkedContent": ["T01A09"],
+          "processedResult": "重新渲染动画，调整RNA与核糖体结合的时序，确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "exclusion": []
+        },
+        {
+          "id": "RA06",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A02"],
+          "originalSuggestion": "在RNA翻译的起始阶段，RNA还未接触到核糖体，多肽链就已经发生合成，需要调整时序以确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "linkedContent": ["T01A10"],
+          "processedResult": "重新渲染动画，调整RNA与核糖体结合的时序，确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "exclusion": []
+        },
+        {
+          "id": "RA07",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A04"],
+          "originalSuggestion": "在RNA翻译的起始阶段，RNA还未接触到核糖体，多肽链就已经发生合成，需要调整时序以确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "linkedContent": ["T01A11"],
+          "processedResult": "重新渲染动画，调整RNA与核糖体结合的时序，确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "exclusion": []
+        },
+        {
+          "id": "RA08",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A03"],
+          "originalSuggestion": "在RNA翻译的起始阶段，RNA还未接触到核糖体，多肽链就已经发生合成，需要调整时序以确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "linkedContent": ["T01A12"],
+          "processedResult": "重新渲染动画，调整RNA与核糖体结合的时序，确保RNA先与核糖体结合，随后才开始多肽链的合成。",
+          "exclusion": []
+        },
+        {
+          "id": "RA09",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A05"],
+          "originalSuggestion": "当前动画节奏较慢，建议加快动画节奏",
+          "linkedContent": ["T01A06"],
+          "processedResult": "加快了动画的节奏，调整为1.5倍",
+          "exclusion": ["RA10"]
+        },
+        {
+          "id": "RA10",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A06"],
+          "originalSuggestion": "当前动画节奏较快，建议减慢动画节奏。",
+          "linkedContent": ["T01A05"],
+          "processedResult": "调整动画播放速度为1/2",
+          "exclusion": ["RA09"]
+        },
+        {
+          "id": "RA11",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A07"],
+          "originalSuggestion": "当前动画节奏较快，建议减慢动画节奏。",
+          "linkedContent": ["T01A08"],
+          "processedResult": "调整动画播放速度为1/2",
+          "exclusion": ["RA12"]
+        },
+        {
+          "id": "RA12",
+          "stage": "Animation",
+          "relatedModule": "Animation",
+          "triggerSource": ["T01A08"],
+          "originalSuggestion": "当前动画节奏较慢，建议加快动画节奏",
+          "linkedContent": ["T01A07"],
+          "processedResult": "调整动画播放速度为1.5倍",
+          "exclusion": ["RA11"]
         }
       ]
     },
