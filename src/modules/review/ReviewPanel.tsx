@@ -1,5 +1,5 @@
 // src/modules/review/ReviewPanel.tsx
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import { Input, Button, Space, Typography, message, Spin } from "antd";
 import {
   CheckCircleOutlined,
@@ -11,6 +11,7 @@ import { useAppStore } from "../../store/useAppStore"; //
 import { trackerService } from "../../services/trackerService"; // 引入数据埋点服务
 import { fetchReviewData } from "./data/reviewData";
 import taskFlowConfig from "../../config/taskFlowConfig.json";
+import framesJson from "../work/data/frames.json";
 
 const { TextArea } = Input;
 const { Title, Text } = Typography;
@@ -68,6 +69,22 @@ const ReviewPanel: React.FC = () => {
   const [processingSuggestionIds, setProcessingSuggestionIds] = useState<
     string[]
   >([]);
+
+  // 映射真实ID到FrameId，用于在消息提示中展示
+  const frameIdMapRef = useRef<Record<string, string>>({});
+  useEffect(() => {
+    try {
+      const map: Record<string, string> = {};
+      framesJson.frameOfTasks.forEach((task: any) => {
+        task.frames.forEach((k: any) => {
+          map[k.id] = k.frameId;
+        });
+      });
+      frameIdMapRef.current = map;
+    } catch (e) {
+      console.error("加载帧映射数据失败", e);
+    }
+  }, []);
 
   // 模拟从 JSON 文件获取建议数据并初始化到 store 中
   useEffect(() => {
@@ -175,7 +192,8 @@ const ReviewPanel: React.FC = () => {
       });
   }, [setSuggestions, taskFlowConfig.currentTaskId]);
 
-  // 监听并处理来自 KeyFrame 或 Animation 的延迟展示建议
+  // 注释掉：监听并处理来自 KeyFrame 或 Animation 的延迟展示建议 的逻辑
+  /*
   useEffect(() => {
     if (pendingSuggestions.length > 0 && readyEntities.length > 0) {
       const activeTask = taskFlowConfig.tasks.find(
@@ -288,8 +306,18 @@ const ReviewPanel: React.FC = () => {
                 processedResult: item.processedResult,
                 exclusion: item.exclusion,
               });
+
+              // 如果是 Frame 阶段并且包含 triggerSource，尝试将其转换为对应的 frameId 以便友好展示
+              let displayIds = item.triggerSource;
+              if (item.relatedModule === "Frame" && item.triggerSource) {
+                const mappedIds = item.triggerSource.map(
+                  (id: string) => frameIdMapRef.current[id] || id,
+                );
+                displayIds = Array.from(new Set(mappedIds)); // 去重
+              }
+
               message.info(
-                `系统产生了一条针对 [${item.triggerSource?.join(", ")}] 分析触发的修改建议`,
+                `系统产生了一条针对 [${displayIds?.join("、")}] 分析触发的修改建议`,
               );
             }
           }, randomDelay);
@@ -303,6 +331,7 @@ const ReviewPanel: React.FC = () => {
     suggestions,
     delayingSuggestions,
   ]);
+  */
 
   // --- 新增：监控 Frame 阶段所有模块的建议是否都被处理完成，如果是则触发 Animation ---
   useEffect(() => {
@@ -520,15 +549,23 @@ const ReviewPanel: React.FC = () => {
       // 记录该建议正处于处理加载过渡期
       setProcessingSuggestionIds((prev) => [...prev, selectedSuggestionId]);
 
+      let displayIds = currentItem.linkedContent;
+      if (currentItem.relatedModule === "Frame" && currentItem.triggerSource) {
+        const mappedIds = currentItem.triggerSource.map(
+          (id: string) => frameIdMapRef.current[id] || id,
+        );
+        displayIds = Array.from(new Set(mappedIds)); // 去重
+      }
+
       // 模拟加载关联内容
       message.loading({
-        content: `正在处理 [${currentItem.linkedContent.join(", ")}]...`,
+        content: `正在处理针对 [${displayIds.join("、")}] 的修改...`,
         key: `load_${selectedSuggestionId}`,
         duration: 2,
       });
       setTimeout(() => {
         message.success({
-          content: `[${currentItem.linkedContent?.join(", ")}] 处理成功，已更新视图`,
+          content: `[${displayIds?.join("、")}] 的建议处理成功，已更新视图`,
           key: `load_${selectedSuggestionId}`,
           duration: 2,
         });
@@ -700,9 +737,9 @@ const ReviewPanel: React.FC = () => {
                 系统分析与建议
               </Text>
             </div>
-            <Button size="small" type="dashed" onClick={handleTestAdd}>
+            {/* <Button size="small" type="dashed" onClick={handleTestAdd}>
               + 模拟生成建议
-            </Button>
+            </Button> */}
           </div>
           <div
             className="scroll-container"

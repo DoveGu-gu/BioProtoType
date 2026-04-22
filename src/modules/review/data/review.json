@@ -6,7 +6,7 @@
       "frameReviews": [
         {
           "id": "RF01",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F01", "T01F02", "T01F03"],
           "originalSuggestion": "当前关键帧背景较为复杂，建议将镜头聚焦于核糖体与mRNA的结合过程，简化背景元素。",
@@ -16,7 +16,7 @@
         },
         {
           "id": "RF02",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F04", "T01F05", "T01F06"],
           "originalSuggestion": "当前关键帧背景较为空旷，建议增加细胞环境元素以增强沉浸感。",
@@ -26,7 +26,7 @@
         },
         {
           "id": "RF03",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F01", "T01F02", "T01F03"],
           "originalSuggestion": "当前多肽链的信号肽部分为红色与RNA相同，可能产生歧义，建议将信号肽部分的颜色调整为绿色。",
@@ -36,7 +36,7 @@
         },
         {
           "id": "RF04",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F04", "T01F05", "T01F06"],
           "originalSuggestion": "当前多肽链的信号肽部分为红色与RNA相同，可能产生歧义，建议将信号肽部分的颜色调整为绿色。",
@@ -46,7 +46,7 @@
         },
         {
           "id": "RF05",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F13", "T01F14", "T01F15"],
           "originalSuggestion": "画面中核糖体的大小亚基完全接触，无明显空隙，建议调整核糖体的大小亚基位置。",
@@ -56,7 +56,7 @@
         },
         {
           "id": "RF06",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03",
           "relatedModule": "Frame",
           "triggerSource": ["T01F16", "T01F17", "T01F18"],
           "originalSuggestion": "画面中核糖体的大亚基的失调，明显大于小亚基，建议调整核糖体的大亚基的比例。",
@@ -193,7 +193,7 @@
       "frameReviews": [
         {
           "id": "RF01",
-          "stage": "Frame",
+          "stage": "Frame-F01、······、F012",
           "relatedModule": "Frame",
           "triggerSource": [
             "T02F01",
@@ -229,7 +229,7 @@
         },
         {
           "id": "RF02",
-          "stage": "Frame",
+          "stage": "Frame-F01、······、F012",
           "relatedModule": "Frame",
           "triggerSource": [
             "T02F13",
@@ -265,7 +265,7 @@
         },
         {
           "id": "RF03",
-          "stage": "Frame",
+          "stage": "Frame-F01、······、F012",
           "relatedModule": "Frame",
           "triggerSource": [
             "T02F01",
@@ -297,7 +297,7 @@
         },
         {
           "id": "RF04",
-          "stage": "Frame",
+          "stage": "Frame-F01、······、F012",
           "relatedModule": "Frame",
           "triggerSource": [
             "T02F13",
@@ -329,7 +329,7 @@
         },
         {
           "id": "RF05",
-          "stage": "Frame",
+          "stage": "Frame-F02",
           "relatedModule": "Frame",
           "triggerSource": ["T02F25"],
           "originalSuggestion": "F02关键帧中核孔复合体布局位置偏下，建议将核孔复合体整体上移，以维持统一",
@@ -339,7 +339,7 @@
         },
         {
           "id": "RF06",
-          "stage": "Frame",
+          "stage": "Frame-F07",
           "relatedModule": "Frame",
           "triggerSource": ["T02F26"],
           "originalSuggestion": "F07关键帧中核孔复合体布局位置偏下，建议将核孔复合体整体上移，以维持统一",
@@ -437,7 +437,7 @@
       "frameReviews": [
         {
           "id": "RF01",
-          "stage": "Frame",
+          "stage": "Frame-F01、F02、F03、F04",
           "relatedModule": "Frame",
           "triggerSource": ["T03F01", "T03F02", "T03F03", "T03F04"],
           "originalSuggestion": "当前关键帧背景较为复杂，建议聚焦于过氧化物酶体的分裂形成过程，简化背景元素。",
@@ -447,7 +447,7 @@
         },
         {
           "id": "RF02",
-          "stage": "Frame",
+          "stage": "Frame-F01",
           "relatedModule": "Frame",
           "triggerSource": ["T03F17"],
           "originalSuggestion": "F01关键帧中，内质网上丢失了PEX19蛋白，需要在内质网qER区域添加PEX19蛋白",

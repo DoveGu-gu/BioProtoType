@@ -340,7 +340,7 @@ const AnimationPage: React.FC = () => {
       return;
     }
     if (!isReadyToDownload || generating || !animationData?.videoUrl) {
-      message.warning("正在生成高质量动画视频，可能需要1-3分钟，请稍候...");
+      message.warning("正在生成动画视频，可能需要1-3分钟，请稍候...");
       return;
     }
 
@@ -684,11 +684,6 @@ const AnimationPage: React.FC = () => {
               ? `当前预览：${animationData.title}`
               : "暂无预览数据"}
           </Text>
-          {animationData?.description && (
-            <Text style={{ color: "#666", fontSize: "14px", marginTop: "8px" }}>
-              {animationData.description}
-            </Text>
-          )}
         </div>
       </div>
     </div>
