@@ -78,8 +78,10 @@ const FramePage: React.FC = () => {
             // 保存所有的原始数据，用于后续替换
             setAllFrameSourceList(allData.keyframes);
 
-            // 初始化：直接使用 data 中的关键帧
-            const initKeyframes = data;
+            // 初始化：根据 task.json 中的帧进行预排序
+            const initKeyframes = data.sort((a, b) =>
+              a.frameId.localeCompare(b.frameId, undefined, { numeric: true }),
+            );
             setKeyframes(initKeyframes);
 
             // 初始化所有帧状态为“等待生成”
@@ -163,31 +165,49 @@ const FramePage: React.FC = () => {
     keyframes.forEach((kf, index) => {
       const newId = approvedReplacements[kf.id];
       if (newId) {
-        const replacementFrame = allFrameSourceList.find((f) => f.id === newId);
-        if (replacementFrame && replacementFrame.id !== kf.id) {
-          nextKeyframes[index] = replacementFrame;
-          // 新进入替换的关键帧，将其置为“generating”展现重新加载的动画
-          nextStatuses[replacementFrame.id] = "generating";
-          // 移除旧记录
+        if (newId === "DELETE") {
+          (nextKeyframes[index] as any) = null;
           delete nextStatuses[kf.id];
           hasChange = true;
 
-          // 保持选中态跟随
+          // 若恰好选中此帧则置空
           if (selectedFrameId === kf.id) {
-            setSelectedFrameId(replacementFrame.id);
+            setSelectedFrameId(null);
+          }
+        } else {
+          const replacementFrame = allFrameSourceList.find(
+            (f) => f.id === newId,
+          );
+          if (replacementFrame && replacementFrame.id !== kf.id) {
+            nextKeyframes[index] = replacementFrame;
+            // 新进入替换的关键帧，将其置为“generating”展现重新加载的动画
+            nextStatuses[replacementFrame.id] = "generating";
+            // 移除旧记录
+            delete nextStatuses[kf.id];
+            hasChange = true;
+
+            // 保持选中态跟随
+            if (selectedFrameId === kf.id) {
+              setSelectedFrameId(replacementFrame.id);
+            }
           }
         }
       }
     });
 
     if (hasChange) {
-      setKeyframes(nextKeyframes);
+      const filteredKeyframes = nextKeyframes
+        .filter(Boolean)
+        .sort((a: any, b: any) =>
+          a.frameId.localeCompare(b.frameId, undefined, { numeric: true }),
+        );
+      setKeyframes(filteredKeyframes);
       setFrameStatuses(nextStatuses);
 
       // 更新全局
       useAppStore
         .getState()
-        .setActiveRenderedFrameIds(nextKeyframes.map((k) => k.id));
+        .setActiveRenderedFrameIds(filteredKeyframes.map((k: any) => k.id));
 
       workflowController.completeFramePhase(false); // 新增：既然状态退回“generating”，那就尚未完成
     }

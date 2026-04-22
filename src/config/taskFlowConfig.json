@@ -2,7 +2,7 @@
   "name": "预设任务流程配置",
   "version": "1.0",
   "description": "定义了预设的任务流程，包括每个任务所需的知识点、脚本、关键帧和动画资源。",
-  "currentTaskId": "task_01",
+  "currentTaskId": "task_02",
   "tasks": [
     {
       "taskId": "task_01",
@@ -22,7 +22,7 @@
     },
     {
       "taskId": "task_02",
-      "taskName": "核输入蛋白的转运",
+      "taskName": "核输入蛋白的跨核膜转运",
       "description": "中等难度任务",
       "allResourcesList": {
         "knowledge": "K02",
@@ -32,8 +32,8 @@
         "reviews": "R02"
       },
       "reviewsCount": {
-        "Frame": 1,
-        "Animation": 0
+        "Frame": 4,
+        "Animation": 3
       }
     },
     {
@@ -48,8 +48,8 @@
         "reviews": "R03"
       },
       "reviewsCount": {
-        "Frame": 1,
-        "Animation": 1
+        "Frame": 3,
+        "Animation": 3
       }
     }
   ]

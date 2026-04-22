@@ -123,9 +123,9 @@
       "animations": [
         {
           "id": "T02A01",
-          "title": "蛋白质跨核膜运输可视化",
-          "description": "素材版本V1，蛋白质跨核膜运输过程的动画展示",
-          "videoUrl": "/videos/task2/Task02_V1.mp4",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1.mp4",
           "triggerFrames": [
             "T02F01",
             "T02F02",
@@ -144,9 +144,9 @@
         },
         {
           "id": "T02A02",
-          "title": "蛋白质跨核膜运输可视化",
-          "description": "素材版本V2，蛋白质跨核膜运输过程的动画展示",
-          "videoUrl": "/videos/task2/Task02_V2.mp4",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2.mp4",
           "triggerFrames": [
             "T02F13",
             "T02F14",
@@ -162,6 +162,268 @@
             "T02F24"
           ],
           "isReady": true
+        },
+        {
+          "id": "T02A03",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A04",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A05",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、核孔复合体布局错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-LayoutError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F25",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A06",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、核孔复合体布局错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-LayoutError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F25",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A07",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、路径错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-ThoroughError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A08",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、路径错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-ThoroughError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A09",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、时序错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-TimeError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F03",
+            "T02F04",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F08",
+            "T02F09",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A10",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V1、时序错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V1-TimeError.mp4",
+          "triggerFrames": [
+            "T02F01",
+            "T02F02",
+            "T02F05",
+            "T02F06",
+            "T02F07",
+            "T02F10",
+            "T02F11",
+            "T02F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A11",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、核孔复合体布局错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-LayoutError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F26",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A12",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、核孔复合体布局错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-LayoutError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F17",
+            "T02F18",
+            "T02F26",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A13",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、RAN-GTP与Importin组合错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-ComposeError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A14",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、RAN-GTP与Importin组合错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-ComposeError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A15",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、时序错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-TimeError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F15",
+            "T02F16",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F20",
+            "T02F21",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T02A16",
+          "title": "核输入蛋白的转运过程可视化",
+          "description": "素材版本V2、时序错误，核输入蛋白的转运过程过程的动画展示",
+          "videoUrl": "/videos/task2/Task02-V2-TimeError.mp4",
+          "triggerFrames": [
+            "T02F13",
+            "T02F14",
+            "T02F17",
+            "T02F18",
+            "T02F19",
+            "T02F22",
+            "T02F23",
+            "T02F24"
+          ],
+          "isReady": true
         }
       ]
     },
@@ -171,16 +433,40 @@
         {
           "id": "T03A01",
           "title": "过氧化物酶体分裂形成途径可视化",
-          "description": "过氧化物酶体形成途径的动画展示",
-          "videoUrl": "/videos/task3/Task03_P1.mp4",
+          "description": "正常速度、过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P1.mp4",
           "triggerFrames": ["T03F01", "T03F02", "T03F03", "T03F04"],
           "isReady": true
         },
         {
           "id": "T03A02",
+          "title": "过氧化物酶体分裂形成途径可视化",
+          "description": "1.5倍速度、过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P1-Fast-1.5.mp4",
+          "triggerFrames": ["T03F01", "T03F02", "T03F03", "T03F04"],
+          "isReady": true
+        },
+        {
+          "id": "T03A03",
+          "title": "过氧化物酶体分裂形成途径可视化",
+          "description": "正常速度、特写，过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P1-Focus.mp4",
+          "triggerFrames": ["T03F13", "T03F14", "T03F15", "T03F16"],
+          "isReady": true
+        },
+        {
+          "id": "T03A04",
+          "title": "过氧化物酶体分裂形成途径可视化",
+          "description": "正常速度、无融球效果分裂，过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P1-NoFusion.mp4",
+          "triggerFrames": ["T03F01", "T03F02", "T03F03", "T03F04"],
+          "isReady": true
+        },
+        {
+          "id": "T03A05",
           "title": "过氧化物酶体从源头合成途径可视化",
-          "description": "过氧化物酶体从头合成途径的动画展示",
-          "videoUrl": "/videos/task3/Task03_P2.mp4",
+          "description": "正常速度、过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P2.mp4",
           "triggerFrames": [
             "T03F05",
             "T03F06",
@@ -191,6 +477,65 @@
             "T03F11",
             "T03F12"
           ],
+          "isReady": true
+        },
+        {
+          "id": "T03A06",
+          "title": "过氧化物酶体从源头合成途径可视化",
+          "description": "1.5倍速度、过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P2-Fast-1.5.mp4",
+          "triggerFrames": [
+            "T03F05",
+            "T03F06",
+            "T03F07",
+            "T03F08",
+            "T03F09",
+            "T03F10",
+            "T03F11",
+            "T03F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T03A07",
+          "title": "过氧化物酶体从源头合成途径可视化",
+          "description": "正常速度、生物大分子缺失，过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P2-Error1.mp4",
+          "triggerFrames": [
+            "T03F17",
+            "T03F06",
+            "T03F07",
+            "T03F08",
+            "T03F09",
+            "T03F10",
+            "T03F11",
+            "T03F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T03A08",
+          "title": "过氧化物酶体从源头合成途径可视化",
+          "description": "正常速度、知识点错误，过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P2-Error2.mp4",
+          "triggerFrames": [
+            "T03F05",
+            "T03F06",
+            "T03F07",
+            "T03F08",
+            "T03F09",
+            "T03F10",
+            "T03F11",
+            "T03F12"
+          ],
+          "isReady": true
+        },
+        {
+          "id": "T03A09",
+          "title": "过氧化物酶体分裂形成途径可视化",
+          "description": "1.5倍速度、特写，过氧化物酶体形成途径的动画展示",
+          "videoUrl": "/videos/task3/Task03-P1-Focus-Fast-1.5.mp4",
+          "triggerFrames": ["T03F13", "T03F14", "T03F15", "T03F16"],
           "isReady": true
         }
       ]

@@ -159,7 +159,7 @@
           "id": "storyboard_01",
           "title": "V1 Importin与NLS结合前",
           "camera": "固定镜头",
-          "content": "Importin与NLS结合前，蛋白质在胞质中的状态。",
+          "content": "Importin与NLS结合前，蛋白质在胞质中的状态",
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
@@ -169,11 +169,11 @@
           "id": "storyboard_02",
           "title": "Importin与NLS结合",
           "camera": "固定镜头",
-          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程。",
+          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程",
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6"],
-          "linkedFrameIds": ["T02F02"]
+          "linkedFrameIds": ["T02F25"]
         },
         {
           "id": "storyboard_03",
@@ -330,7 +330,7 @@
           "id": "storyboard_13",
           "title": "V2 Importin与NLS结合前",
           "camera": "固定镜头",
-          "content": "Importin与NLS结合前，蛋白质在胞质中的状态。",
+          "content": "Importin与NLS结合前，蛋白质在胞质中的状态",
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
@@ -340,7 +340,7 @@
           "id": "storyboard_14",
           "title": "Importin与NLS结合",
           "camera": "固定镜头",
-          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程。",
+          "content": "Importin与NLS结合，形成转运复合体，蛋白质被识别并准备进入细胞核的过程",
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02", "res_03", "res_04"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
@@ -412,7 +412,7 @@
             "res_05"
           ],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
-          "linkedFrameIds": ["T02F19"]
+          "linkedFrameIds": ["T02F26"]
         },
         {
           "id": "storyboard_20",
@@ -557,7 +557,7 @@
           "id": "storyboard_01",
           "title": "过氧化物酶体生长",
           "camera": "固定镜头",
-          "content": "成熟过氧化物酶体通过摄入脂质和膜蛋白不断增大体积，发生膜的延伸，形成管状结构",
+          "content": "成熟过氧化物酶体通过摄入脂质和膜蛋白不断增大体积，发生膜的延伸",
           "duration": "00:03",
           "relatedResources": ["res_01"],
           "triggerComponents": ["c1", "c2"],
@@ -567,7 +567,7 @@
           "id": "storyboard_02",
           "title": "过氧化物酶体膜收缩",
           "camera": "固定镜头",
-          "content": "收缩蛋白被募集到管状膜上，作为“锚点”吸引动力蛋白相关的GTP酶",
+          "content": "收缩蛋白被募集到膜上，作为“锚点”吸引动力蛋白相关的GTP酶",
           "duration": "00:03",
           "relatedResources": ["res_01"],
           "triggerComponents": ["c1", "c2"],
@@ -601,11 +601,11 @@
           "duration": "00:03",
           "relatedResources": ["res_02", "res_07", "res_08"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],
-          "linkedFrameIds": ["T03F05"]
+          "linkedFrameIds": ["T03F17"]
         },
         {
           "id": "storyboard_06",
-          "title": "c",
+          "title": "内质网出芽-2",
           "camera": "固定镜头",
           "content": "Pex3和Pex19蛋白在内质网膜上组装，引导过氧化物酶体前体膜结构的形成",
           "duration": "00:03",
@@ -689,7 +689,7 @@
           "id": "storyboard_12",
           "title": "形成过氧化物酶体-2",
           "camera": "固定镜头",
-          "content": "过氧化物酶体前体影泡成熟后，形成具有完整膜结构和功能的过氧化物酶体",
+          "content": "过氧化物酶体前体影泡成熟，形成具有完整膜结构和功能的过氧化物酶体",
           "duration": "00:03",
           "relatedResources": ["res_01", "res_02"],
           "triggerComponents": ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8"],

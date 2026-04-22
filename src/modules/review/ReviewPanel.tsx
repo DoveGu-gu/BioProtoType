@@ -535,10 +535,26 @@ const ReviewPanel: React.FC = () => {
 
         // --- 新增：通知 Store 记录替换映射 ---
         // 我们利用 suggestion.triggerSource 作为被替换的原始 ID，
-        // 将 suggestion.linkedContent 作为新的目标 ID
+        // 将 suggestion.linkedContent 作为新的目标 ID，或识别删除动作
         if (currentItem.triggerSource && currentItem.linkedContent) {
+          const isDeletion =
+            currentItem.linkedContent.length <
+              currentItem.triggerSource.length &&
+            currentItem.linkedContent.every((id) =>
+              currentItem.triggerSource!.includes(id),
+            );
+
           currentItem.triggerSource.forEach((source, index) => {
-            const linkTarget = currentItem.linkedContent![index];
+            let linkTarget: string | null = null;
+
+            if (isDeletion) {
+              if (!currentItem.linkedContent!.includes(source)) {
+                linkTarget = "DELETE";
+              }
+            } else {
+              linkTarget = currentItem.linkedContent![index];
+            }
+
             if (linkTarget) {
               addApprovedReplacement(source, linkTarget);
               removeReadyEntity(source);
